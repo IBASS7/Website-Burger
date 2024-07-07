@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: auto;
+    /* height: 600px; */
+    padding-bottom: 40px;
+}
+
+header nav {
+    width: 80%;
+    height: 70px;
+    /* border: 1px solid #000; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav .logo_ul{
+    display: flex;
+    align-items: center;
+}
+
+header nav .logo_ul img{
+    width: 50px;
+}
+
+header nav .logo_ul ul{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+header nav .logo_ul ul li{
+    list-style: none;
+    padding: 3px 10px;
+    margin-right: 18px;
+}
+
+header nav .logo_ul ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    transition: .3s linear;
+}
+
+header nav .logo_ul ul li:nth-last-child(1){
+    background: #0080006e;
+    border-radius: 10px;
+    padding: 1px 13px ;
+}
+
+header nav .logo_ul ul li:nth-last-child(1) a {
+    color: #fff;
+}
+
+header nav .logo_ul ul li:nth-last-child(1) a i {
+    margin-left: 5px;
+}
+
+header nav .logo_ul ul li a:hover {
+    color: rgb(0, 0, 0,.2);
+}
+
+header nav .contact_selection {
+    display: flex;
+    align-items: center;
+}
+
+header nav .contact_selection li {
+    display: flex;
+    align-items: center;
+    padding: 3px 10px ;
+}
+
+header nav .contact_selection li a {
+    font-size: 13px;
+    color: #000000;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+header nav .contact_selection li:nth-child(2) {
+    background: #fff;
+    border-radius: 10px;
+    padding: 2px 13px 1px 13px;
+    width: 100px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+
+/*  */
+.account-page{
+    padding: 100px 0;
+    background: #fff;
+}
+
+.form-container{
+    background: #fff;
+    width: 300px;
+    height: 350px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+
+.form-btn{
+    display: inline-block;
+}
+
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: transform 1s;
+}
+
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+
+form .btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+form .btn:focus{
+    outline: none;
+}
+
+#LoginForm{
+    left: -300px;
+}
+
+#RegForm{
+    left: 0;
+}
+
+form a{
+    font-size: 12px;
+}
+
+#Indicator{
+    width: 100px;
+    border: none;
+    background: #503996;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+}
+
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #ffffff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
