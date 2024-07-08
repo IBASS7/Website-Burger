@@ -818,3 +818,25 @@ footer img {
     width: 450px;
 }
 /* End Section */
+
+
+/* Alamat */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.address p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.address strong {
+    color: #555;
+}
